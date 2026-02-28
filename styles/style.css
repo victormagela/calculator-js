@@ -21,6 +21,20 @@ main {
     flex-direction: column;
 }
 
+#display {
+    height: 80px;
+    text-align: right;
+    font-size: 5.5rem;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border: none;
+    margin: 12px 12px 0 0;
+}
+
+#display::placeholder {
+    color: white;
+}
+
 #buttons {
     display: flex;
     flex-wrap: wrap;
