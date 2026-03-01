@@ -63,7 +63,7 @@ button:active {
     flex-basis: calc(50% - 8px);
 }
 
-.operator {
+.special {
     background-color: hsl(0, 0%, 40%);
 }
 
